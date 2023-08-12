@@ -7,7 +7,7 @@
     具体方法自行按操作系统百度解决。
 
 
-    ```java
+```java
    private static WebDriver openCharm() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
@@ -29,4 +29,4 @@
         // driver.executeScript("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})","");
         return driver;
     }
-    ```
+```
